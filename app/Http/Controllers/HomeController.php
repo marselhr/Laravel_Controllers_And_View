@@ -13,7 +13,7 @@ class HomeController extends Controller
             'name' => 'Marsel',
             'role' => 'web developer'
         ];
-
+        $data['title'] = "Home Page";
         return view('landing.index', compact('data'));
     }
 }

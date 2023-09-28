@@ -13,6 +13,7 @@ class ProfileController extends Controller
             'name' => 'Marsel',
             'role' => 'web developer'
         ];
+        $data['title'] = "My Profil";
 
         return view('pages.profile.index', compact('data'));
     }

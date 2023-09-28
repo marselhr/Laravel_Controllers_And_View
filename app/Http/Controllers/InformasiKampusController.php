@@ -9,11 +9,12 @@ class InformasiKampusController extends Controller
 {
     public function index(): View
     {
-        $data = [
+        $data['kampus'] =  [
             'nama' => "Universitas Pendidikan Ganesha",
             'alamat' => "Jalan Udayana No.11 Singaraja - Bali 81116",
             'web' => 'undiksha.ac.id'
         ];
-        return view('pages.kampus.index');
+        $data['title'] = "Informasi Kampus";
+        return view('pages.kampus.index', compact('data'));
     }
 }
