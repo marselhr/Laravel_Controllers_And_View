@@ -1,7 +1,7 @@
 @extends('app')
 
 @section('content')
-    <section class="">
+    <section class="min-vh-100">
         <div class="container">
             <div class="row">
                 <h1 class="text-center">Informasi Kampusku</h1>

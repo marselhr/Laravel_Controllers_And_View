@@ -1,18 +1,21 @@
 @extends('app')
 
 @section('content')
-    <h1 class="text-center">Introduction my self</h1>
-    <div class="col-6 mx-auto">
+    <section class="min-vh-100">
 
-        <div class="card">
-            <div class="card-body">
-                {{ $data['name'] }}
+        <h1 class="text-center">Introduction my self</h1>
+        <div class="col-6 mx-auto">
+
+            <div class="card">
+                <div class="card-body">
+                    {{ $data['name'] }}
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    {{ $data['role'] }}
+                </div>
             </div>
         </div>
-        <div class="card">
-            <div class="card-body">
-                {{ $data['role'] }}
-            </div>
-        </div>
-    </div>
+    </section>
 @endsection
