@@ -46,7 +46,7 @@
                 </div>
                 <div class="card-section" id="education">
                     <div class="card-content">
-                        <div class="card-subtitle">Education</div>
+                        <div class="card-subtitle">EDUCATION</div>
                         <div class="card-timeline">
                             <div class="card-item" data-year="2008">
                                 <div class="card-item-title">Primary School at <span>SDK Gurusina</span></div>
