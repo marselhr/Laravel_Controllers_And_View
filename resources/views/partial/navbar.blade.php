@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top z-50">
     <div class="container">
         <a class="navbar-brand" href="#"><span class="text-success">Website</span>First</a> <button
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"

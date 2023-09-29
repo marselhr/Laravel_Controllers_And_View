@@ -4,6 +4,7 @@
 }
 body {
     background: #f1fbff;
+    box-sizing: border-box;
 }
 .section-padding {
     padding: 100px 0;

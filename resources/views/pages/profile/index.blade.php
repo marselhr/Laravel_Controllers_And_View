@@ -5,7 +5,7 @@
 @section('content')
     <section class="min-vh-100">
 
-        <div class="card col-10 col-md-4 mx-auto" data-state="#about">
+        <div class="card col-10 col-md-6 mx-auto" data-state="#about">
             <div class="card-header">
                 <div class="card-cover" style="background-image: url('{{ asset('img/1000079670.jpg') }}')">
                 </div>

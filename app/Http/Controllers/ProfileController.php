@@ -27,7 +27,7 @@ class ProfileController extends Controller
                 ],
 
                 'kuliah' => [
-                    'year' => '2017',
+                    'year' => '2021',
                     'at' => 'Universitas Pendidikan Ganesha'
                 ],
 
