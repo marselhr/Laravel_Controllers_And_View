@@ -10,8 +10,8 @@
                 <div class="card-cover" style="background-image: url('{{ asset('img/1000079670.jpg') }}')">
                 </div>
                 <img class="card-avatar" src="{{ asset('img/1000079670.jpg') }}" alt="avatar" />
-                <h1 class="card-fullname">Marselinus Harson Rewo</h1>
-                <h2 class="card-jobtitle">Web Developer</h2>
+                <h1 class="card-fullname">{{ $data['name'] }}</h1>
+                <h2 class="card-jobtitle">{{ $data['role'] }}</h2>
             </div>
             <div class="card-main">
                 <div class="card-section is-active" id="about">
