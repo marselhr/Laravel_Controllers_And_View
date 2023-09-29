@@ -48,22 +48,32 @@
                     <div class="card-content">
                         <div class="card-subtitle">EDUCATION</div>
                         <div class="card-timeline">
-                            <div class="card-item" data-year="2008">
-                                <div class="card-item-title">Primary School at <span>SDK Gurusina</span></div>
-                                <div class="card-item-desc">2008 - 2014</div>
+                            <div class="card-item" data-year="{{ $data['education']['sd']['year'] }}">
+                                <div class="card-item-title">Primary School at
+                                    <span>{{ $data['education']['sd']['at'] }}</span>
+                                </div>
+                                <div class="card-item-desc">{{ $data['education']['sd']['year'] }} -
+                                    {{ $data['education']['sd']['year'] + 6 }}</div>
                             </div>
-                            <div class="card-item" data-year="2014">
-                                <div class="card-item-title">Junior High School at <span>SMPK Yos Soedarso</span></div>
-                                <div class="card-item-desc">2014 - 2017</div>
+                            <div class="card-item" data-year="{{ $data['education']['smp']['year'] }}">
+                                <div class="card-item-title">Junior High School at
+                                    <span>{{ $data['education']['smp']['at'] }}</span>
+                                </div>
+                                <div class="card-item-desc">{{ $data['education']['smp']['year'] }} -
+                                    {{ $data['education']['smp']['year'] + 3 }}</div>
                             </div>
-                            <div class="card-item" data-year="2017">
-                                <div class="card-item-title">Senior High School at <span>SMAS Katolik Regina Pacis
-                                        Bajawa</span></div>
-                                <div class="card-item-desc">2017 - 2020</div>
+                            <div class="card-item" data-year="{{ $data['education']['sma']['year'] }}">
+                                <div class="card-item-title">Senior High School at
+                                    <span>{{ $data['education']['sma']['at'] }}
+                                        Bajawa</span>
+                                </div>
+                                <div class="card-item-desc">{{ $data['education']['sma']['year'] }} -
+                                    {{ $data['education']['sma']['year'] + 3 }}</div>
                             </div>
-                            <div class="card-item" data-year="2021">
-                                <div class="card-item-title">Study at <span>Ganesha Education University</span></div>
-                                <div class="card-item-desc">July 2021 - Now</div>
+                            <div class="card-item" data-year="{{ $data['education']['kuliah']['year'] }}">
+                                <div class="card-item-title">Study at <span>{{ $data['education']['kuliah']['at'] }}</span>
+                                </div>
+                                <div class="card-item-desc">July {{ $data['education']['kuliah']['year'] }} - Now</div>
                             </div>
                         </div>
                     </div>
